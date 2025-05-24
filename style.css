@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+}
+
+.bg-img1 {
+  height: 550px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url("");
+}
+.bg-img2 {
+  height: 550px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url("");
+}
+.bg-img3 {
+  height: 550px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url("");
+}
+.carousel-caption {
+  text-align: left !important;
+}
+.carousel-indicators button {
+  background-color: #fff !important;
+}
+.carousel-indicators .active {
+  background-color: #fff !important;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  margin-left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.carousel-indicators button {
+  background-color: #fff !important;
+  width: 12px;
+  height: 12px;
+  border: none;
+  margin: 0 5px;
+}
+footer {
+  margin-top: 500px !important;
+}
